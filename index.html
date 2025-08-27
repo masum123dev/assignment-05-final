@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Project</title>
+    <link rel="stylesheet" href="./assets/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="shadow py-12">
+      <div class="logo flex justify-center items-center font-bold gap-1">
+        <img src="./assets/logo.png" alt="" class="w-8" />
+        <div>
+          <h2 class="text-pink-500 text-xl">DESHI DEALS</h2>
+          <p>Cheap Price, Best Quality</p>
+        </div>
+      </div>
+    </header>
+    <main class="bg-gray-100">
+      <section id="banner"></section>
+      <section
+        id="product-container"
+        class="w-11/12 mx-auto py-8 grid grid-cols-12 gap-8"
+      >
+        <section id="product-box" class="col-span-9">
+          <!-- Kitechen Section starts here ------------------------------->
+          <div class="kitchen">
+            <h1 class="text-3xl font-bold">Kitchen</h1>
+            <div class="kitchen-items grid grid-cols-3">
+              <!-- Product card 01 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/kitchen-1.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item One</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Two -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/kitchen-2.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Two</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Three -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/kitchen-3.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Three</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Furniture Section starts her------------------- -->
+          <div class="Furniture">
+            <h1 class="text-3xl font-bold">Furniture</h1>
+            <div class="kitchen-items grid grid-cols-3">
+              <!-- Product card 01 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/furniture-1.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item One</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Two -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/furniture-2.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Two</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Three -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/furniture-3.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Three</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sportware section starts here -------------------------->
+          <div class="Sportsware">
+            <h1 class="text-3xl font-bold">Sortsware</h1>
+            <div class="kitchen-items grid grid-cols-3">
+              <!-- Product card 01 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/sports-1.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item One</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Two -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/sports-2.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Two</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card Three -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="m-5 bg-gray-200">
+                  <img
+                    src="./assets/sports-3.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title mb-5">Item Three</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>150.00</span>tk</p>
+                  <div class="flex justify-center">
+                    <button class="btn bg-pink-500 text-white block w-full">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -----Cart Sectin Starts Here------------------ -->
+        <aside id="card-box" class="col-span-3">
+          <div class="bg-white p-5">
+            <h2 class="font-bold mb-6">Have a Coupon</h2>
+            <div class="join">
+              <input class="input join-item" placeholder="Email" />
+              <button
+                class="btn join-item rounded-r-full bg-pink-500 text-white"
+              >
+                Apply
+              </button>
+            </div>
+          </div>
+          <div class="cart-box bg-white mt-10 p-5">
+            <h2 class="font-bold">Cart</h2>
+            <div class="" id="cart-container"></div>
+            <div class="">
+              <h2>Total Price: <span id="total-price">0</span> tk</h2>
+              <h2>Total Quantity: <span id="total-quantity">0</span> Items</h2>
+              <button class="bg-pink-500 text-white block w-full">
+                Make Purchase
+              </button>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
