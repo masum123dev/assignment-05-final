@@ -53,14 +53,16 @@ for (let cartButton of cartbtns) {
     // console.log(productImg);
     const productTitle = cartButton.parentNode.parentNode.children[0].innerText;
     // console.log(productTitle);
-    const productPrice = cartButton.parentNode.parentNode.children[2].innerText;
-    // console.log(productPrice);
+    const productPrice =
+      cartButton.parentNode.parentNode.children[2].children[0].innerText;
+    const price = Number(productPrice);
+    console.log(price);
 
     const totalPrice = getElement("total-price").innerText;
 
-    const currentTotal = productPrice + totalPrice;
+    const currentTotal = price + Number(totalPrice);
+    // console.log(currentTotal);
+    getElement("total-price").innerText = currentTotal;
     console.log(currentTotal);
-    // getElement("total-price").innerText = currentTotal;
-    // // console.log(currentTotal);
   });
 }
