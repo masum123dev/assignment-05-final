@@ -57,8 +57,10 @@ for (let cartButton of cartbtns) {
     // console.log(productPrice);
 
     const totalPrice = getElement("total-price").innerText;
-    const currentTotal = Number(productPrice) + Number(totalPrice);
-    getElement("total-price").innerText = currentTotal;
-    // console.log(currentTotal);
+
+    const currentTotal = productPrice + totalPrice;
+    console.log(currentTotal);
+    // getElement("total-price").innerText = currentTotal;
+    // // console.log(currentTotal);
   });
 }
